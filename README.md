@@ -2,6 +2,8 @@
 # Getir Project
 The tests are run on the basis of cucumber from the page named "LocalRunner".
 Scenarios are written in "feature" files with a user-friendly structure.
+You can find the CI/CD at https://github.com/CemGarip/GetirProject/actions tab.
+If you click on some of the studies, you can also find the test report bottom of the page.
 The following were used in this project.
 - Java
 - JUnit
