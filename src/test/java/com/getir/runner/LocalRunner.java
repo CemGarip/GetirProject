@@ -12,9 +12,9 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports",
                 "rerun:target/rerun.txt"
         },
-        //tags = {
-        //        "@user_register_new_account_check_warnings"
-        //},
+        tags = {
+                "@user_register_new_account_check_warnings,"
+        },
         features = {"src/test/resources/features" //to specify where are the features
         },
         //feature contains scenarios

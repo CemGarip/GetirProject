@@ -26,7 +26,7 @@ public class HeaderPage extends BasePage {
 		WebElement optionElement = WaitUtils.waitForClickability(optionLocator);
 		WaitUtils.waitElementInteractableWithClicking(optionElement);
 		WaitUtils.waitForPageToLoad(5);
-		logger.info("Navigated To " + subTabName +"and "+option+"");
+		logger.info("Navigated To " + subTabName +" and "+option+" tab");
 	}
 	public void logOut(){
 		pages.loginPage().txt_MyAccount_TopText.click();
@@ -52,7 +52,7 @@ public class HeaderPage extends BasePage {
 		By pageLocator = By.xpath("//a//span[contains(text(),\""+pageValue+"\")]");
 		WebElement pageElement = WaitUtils.waitForClickability(pageLocator);
 		WaitUtils.waitElementInteractableWithClicking(pageElement);
-		logger.info("Navigated To " + pageValue +"and "+ddTabValue+"");
+		logger.info("Navigated To " + pageValue +" and "+ddTabValue+" tab");
 	}
 	public void breadCrumbingTrailIs(String breadCrumb) {
 		String breadCrumbTrailActual = Driver.getDriver().findElement(By.xpath("//li[@class='breadcrumb-item']/a[text()='\""+breadCrumb+"\"]")).getText();

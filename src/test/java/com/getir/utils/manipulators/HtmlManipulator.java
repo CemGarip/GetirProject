@@ -15,15 +15,6 @@ import static org.junit.Assert.assertTrue;
 public class HtmlManipulator {
 	private static final Logger logger = LogManager.getLogger();
 
-	public static void verifyEquals(String expectedResult, String actualResult){
-		if(expectedResult.equals(actualResult)) {
-			System.out.println("Passed");
-		} else {
-			System.out.println("Failed");
-			System.out.println("Expected result: " + expectedResult);
-			System.out.println("Actual result: " + actualResult);
-		}
-	}
 	public static void hover(WebElement element){
 		Actions actions = new Actions(Driver.getDriver());
 		actions.moveToElement(element).build().perform();
