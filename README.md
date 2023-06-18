@@ -14,7 +14,7 @@ Requirements to be installed on the system to run the project:
 - Maven
 - Cucumber(add with plugin)
 
-### Contents
+## Contents
 ### Pages.package
 In this package, the pages are separated according to the fields they are related to.
 - CheckoutPage
@@ -57,17 +57,19 @@ Features include a list of scenarios.the features are separated according to the
 - shoppingCart.feature
 - wishlist.feature
 
-### test_data (json.credentials)
+### test_data 
+- credentials.json
 
 ### configuration.properties
 
 ### pom.xml
 
 ## Scenarios
-- login.feature
-In this feature, it is aimed to test what actions the user can do by logging in or not and what warnings user receives.
+### login.feature
+- In this feature, it is aimed to test what actions the user can do by logging in or not and what warnings user receives. 
 Because the steps that a registered user and an unregistered user may encounter in shopping sites are different.
-- shoppingCart.feature
-On this page, the user is now at the purchasing stage. The parts that the user will consider here are parts such as payment, shipping, coupon information. How the user experiences these parts has been tested.
-- wishlist.feature
-On this page, the parts that the user will see in the wishlist when she/he wants to compare the products likes have been tested.
+### shoppingCart.feature
+- On this page, the user is now at the purchasing stage. 
+The parts that the user will consider here are parts such as payment, shipping, coupon information. How the user experiences these parts has been tested.
+### wishlist.feature
+- On this page, the parts that the user will see in the wishlist when she/he wants to compare the products likes have been tested.
