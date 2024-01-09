@@ -11,9 +11,9 @@
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <selenium.version>4.9.1</selenium.version>
+        <selenium.version>4.11.0</selenium.version>
         <cucumber.version>4.2.2</cucumber.version>
-        <webdrivermanager.version>5.3.3</webdrivermanager.version>
+        <webdrivermanager.version>5.4.1</webdrivermanager.version>
         <javafaker.version>1.0.2</javafaker.version>
         <log4j.version>2.17.1</log4j.version>
         <junit.version>4.13.1</junit.version>

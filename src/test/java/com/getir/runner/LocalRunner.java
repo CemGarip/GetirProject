@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
                 "rerun:target/rerun.txt"
         },
         tags = {
-                "@user_register_new_account_check_warnings,"
+                "@user_shopping_with_log_in,"
         },
         features = {"src/test/resources/features" //to specify where are the features
         },
